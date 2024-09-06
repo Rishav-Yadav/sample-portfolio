@@ -1,0 +1,32 @@
+.container {
+  max-width: 768px !important; }
+
+#logo {
+  width: 50px;
+  height: 50px; }
+
+#main-navbar ul li {
+  padding: 0.5rem 0.7rem; }
+
+#home-a .specials {
+  grid-template-columns: repeat(1, 1fr); }
+
+#home-b .stats {
+  grid-template-columns: repeat(1, 1fr); }
+
+#home-c .process {
+  grid-template-columns: repeat(1, 1fr); }
+
+#home-footer {
+  height: 10rem; }
+  #home-footer .container {
+    height: 10rem;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    #home-footer .container p {
+      padding-top: 1rem;
+      margin-bottom: 0.5rem; }
+    #home-footer .container ul li {
+      padding: 0.5rem; }
+      #home-footer .container ul li i {
+        padding: 0.5rem; }
